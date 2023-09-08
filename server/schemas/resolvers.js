@@ -1,5 +1,5 @@
 const { User, Book } = require("../models");
-const { AuthenticationError } = require("apollo-server-express");
+const { AuthenticationError } = require("@apollo/server");
 // Define GraphQL resolvers
 const resolvers = {
   Query: {
